@@ -4,11 +4,11 @@ function addElementToBeginningOfArray(array, element) {
   return addElementToBeginningOfArray.unshift
 }
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return destructivelyAddElementToBeginningOfArray.unshift
+  return (element, array)
 }
 function addElementToEndOfArray(array, element) {
   return addElementToEndOfArray.push
 }
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return destructivelyAddElementToBeginningOfArray.push
+  return (element, array)
 }
