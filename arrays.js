@@ -1,9 +1,9 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles" ]
-
-function addElementToBeginningOfArray(array, element) {
+  var candyString = 'foo'
+var addElementToBeginningOfArray = 
+function addElementToBeginningOfArray(chocolateBars) {
   return addElementToBeginningOfArray.concat
-  const array = [1]
-}
+  
 
 function destructivelyAddElementToBeginningOfArray(1, 'foo') {
   return destructivelyAddElementToBeginningOfArray.unshift
