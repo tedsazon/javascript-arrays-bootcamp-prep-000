@@ -1,5 +1,5 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles" ]
 
 function addElementToBeginningOfArray(array,element) {
-  return addElementToBeginningOfArray.unshift([1],'foo')
+  return addElementToBeginningOfArray.unshift(array,'foo')
 }
